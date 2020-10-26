@@ -1,0 +1,104 @@
+   .new_banner{
+	   background: #fff;
+	   color: #101010;
+	   padding-bottom: 20px;
+	   .topHeader{
+		   margin-bottom: 40px;
+	   }
+	   .ant-form-item{
+		   margin-bottom: 18px;
+		   
+	   }
+	   .ant-form-item >>> .ant-form-item-label label{
+	   		   font-size: 16px;
+	   		   color: #101010;
+	   }
+	   .ant-form-item >>> .ant-form-item-control{
+	   		margin-left: 95px
+	   }
+	   .ant-form-item >>> .date_time{
+	   		width: 174px;
+	   }
+	   .ant-form-item >>> .calendar{
+	   		top: -340px;
+	   }
+	   .ant-form-item >>> .leftSpan{
+	   		display: none;
+	   }
+	   .disImg >>> label{
+	   		display: none;
+	   }
+	   .ant-form-item >>> .rangeTime{
+	   		height: 40px
+	   }
+	   .ant-form-item >>> .modelItem{
+	   		margin-bottom: 0px;
+			padding-top: 5px;
+			box-sizing: border-box;
+	   }
+	   .w_380{
+		   width: 380px;
+		   
+	   }
+	    .h_100{
+			height: 100px;
+		}		  
+	   .newMar{
+	   		    margin-right: 126px;
+	            margin-left: 70px;
+	   	   }
+	   	   .upload-list-inline >>> .ant-upload-list-item {
+	   		  float: left;
+	   		  width: 74px;
+	   			height: 41px;
+	   			padding: 0px;
+	   			margin-top: 6px;
+	   			overflow: hidden;
+	   		}
+	   		.dis_t{
+	   			display: block;
+	   			margin-top: 8px;
+	   		}
+	   		.bor_ra4{
+	   			border-radius: 4px;
+	   		}
+	   		.span_col{
+	   			color: #827E7E;
+	   			margin-left: 15px;
+	   		}
+	   		.upload-list-inline >>> .ant-upload-animate-enter {
+	   		  animation-name: uploadAnimateInlineIn;
+	   		}
+	   		.upload-list-inline >>> .ant-upload-list {
+	   		  display: none;
+	   		}
+	   		.img_sw{
+	   			width: 74px;
+	   			height: 41px;
+	   			overflow: hidden;
+	   			position: relative;
+	   			img{
+	   				width: 76px;
+	   				height: 43px;
+	   				position: absolute;
+	   				top: -1px;
+	   				right: -1px;
+	   			}
+	   		}
+	   }
+  	.see_img{
+   	.content{
+   		img{
+   			width: 100%;
+   		}
+   		h6{
+   			color: #101010;
+			font-size: 16px;
+			line-height: 40px;		   
+			text-align: center;
+			background: #C2C7CC 100%;
+			margin-top: 10px;
+			border-radius: 20px;
+   		}
+   	}
+   }

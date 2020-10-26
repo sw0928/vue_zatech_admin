@@ -1,0 +1,120 @@
+.detail {
+    .boxs {
+        padding: 10px;
+        background: #ffffff;
+        margin-bottom: 20px;
+        border: 1px solid #d8dadc;
+        .box {
+            padding-left: 50px;
+            .temporaryActive {
+                min-height: 100px;
+                border: 1px solid #e1e1e1;
+                ;
+            }
+            .box_form {
+                margin-top: 15px;
+                margin-bottom: 20px;
+                min-height: 100px;
+                background: #e1e1e1;
+                padding-bottom: 15px;
+                .tem_box {
+                    .temporary {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: 20px;
+                        border: none;
+                        padding: 0 25px;
+                        background-color: #fff;
+                        color: #d81f49;
+                        border: 1px solid #d81f49;
+                        border-radius: 5px;
+                        height: 25px;
+                        line-height: 25px;
+                    }
+                }
+            }
+            .add_active {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .add_title {
+                    font-size: 20px;
+                }
+                .demo {
+                    display: flex;
+                    // background: red;
+                    .upElsx {
+                        padding-right: 50px;
+                        position: relative;
+                        .real_up {
+                            top: 0;
+                            position: absolute;
+                            opacity: 0;
+                            z-index: 99;
+                        }
+                    }
+                    .btn,
+                    .ex_btn {
+                        padding: 0 50px;
+                        line-height: 30px;
+                        margin-left: 15px;
+                        border: 1px solid #d81f49;
+                        color: #d81f49;
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+        #add {
+            padding-top: 30px;
+            .comDiv {
+                display: inline-block!important;
+                margin-bottom: 10px;
+                min-width: 40%!important;
+                /deep/ .modelItem {
+                    .leftSpan {
+                        min-width: 105px!important;
+                    }
+                    .modelInput {
+                        .calendar_box {
+                            .date_time {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .editor {
+                min-height: 350px!important;
+                display: block!important;
+                min-width: 100%!important;
+                /deep/ .modelItem {
+                    display: block;
+                    .editor {
+                        display: inline-block;
+                        vertical-align: top;
+                    }
+                }
+            }
+        }
+        .btn_box {
+            padding-top: 80px;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            .btn {
+                width: 100px;
+                height: 30px;
+                border: none;
+                border: 10px!important;
+                border: 1px solid #d8dadc;
+                line-height: 30px
+            }
+            .btn1 {
+                margin-right: 20px;
+                background: #d81f49;
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,150 @@
+.IMGDEL{
+  top: 6px !important;
+  right: 6px !important;
+}
+
+.draggable{
+	background: #fff;
+	cursor: move;
+}
+.btnDiv{
+  padding: 20px 0;
+  text-align: right
+}
+.fileThis{
+  position: fixed;
+  left: 10000px;
+  top: -100px;
+}
+.someTable{
+				color: #333333;
+				font-size: 12px;
+				display: table;
+				border-spacing: 0px;
+				width: 100%;
+				border-collapse: collapse;
+				 border-right: #E6E6E6 1px solid;
+				 border-bottom: #E6E6E6 1px solid;
+				border-color: #E6E6E6;
+				margin-top: 7px;
+
+				td {
+				height: 38px;
+				border-top:#E6E6E6 1px solid;
+				border-bottom:#E6E6E6 1px solid;
+				border-left: #E6E6E6 1px solid;
+				text-align: center;
+				font-weight: bold;
+				font-size: 14px;
+				position: relative
+				}
+				th {
+					height: 26px;
+					color: #083766;
+					font-size: 14px;
+					border-left: 0;
+					border-left: #E6E6E6 1px solid;
+				border-top:#E6E6E6 1px solid;
+				text-align: center;
+				background: #F8F8F8;
+				color: #E8E8E8;
+				letter-spacing: 4px;
+				font-weight: bold;
+				}
+			}
+
+
+
+/deep/ .searchDiv{
+	padding-top: 30px;
+	margin-bottom: 0;
+	display: block;
+	border-top: 1px solid #D8DADC;
+	// padding-bottom: 0;
+
+	.modelItem{
+		display: flex;
+		// justify-content: space-between;
+		align-items: center;
+		margin-bottom: 14px;
+	}
+	.leftSpan{
+		display: inline-block;
+		// width: 80px;
+		min-width: 100px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-right: 20px;
+	}
+	.comDiv{
+		display: block;
+		width: 380px !important;
+	}
+}
+.rangeTime{
+	width: 200px !important;
+}
+.DelImg{
+	position: absolute;
+	right: 0px;
+	top: 4px;
+	width: 10px;
+	height: 10px;
+}
+.searchDivOther{
+    display: flex;
+    background-color: #FAFAFA;
+	flex-wrap: wrap;
+    box-sizing: border-box;
+    border: 1px solid #D8DADC;
+    border-top: 0;
+    padding: 10px 0;
+    padding-left: 18px;
+    margin-bottom: 10px;
+	// padding-top: 30px;
+	margin-bottom: 0;
+	border-top: 1px solid #D8DADC;
+	min-height: 84px;
+	/deep/ .modelItem{
+		margin-top: 6px;
+		margin-right: 8px;
+	}
+}
+.test{
+	/deep/ .modelItem{
+			display: flex;
+			// justify-content: space-between;
+			align-items: center;
+			margin-bottom: 14px;
+		}
+	/deep/ .comDiv{
+			display: block;
+			width: 380px !important;
+		}
+	/deep/	.leftSpan{
+			display: inline-block;
+			// width: 80px;
+			min-width: 100px;
+			margin-bottom: 0;
+			text-align: right;
+			margin-right: 20px;
+		}
+}
+
+
+	.contentThis{
+		background: #fff;
+		padding-bottom: 20px;
+	}
+	.titleThis{
+		background: #fff;
+		padding:  14px;
+		padding-bottom: 0;
+
+		.titleFont{
+			padding-bottom: 14px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center
+		}
+	}

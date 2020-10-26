@@ -1,0 +1,20 @@
+.titiit{
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+}
+#add >>> .someTableDiv{
+	padding: 10px 0 20px 0;
+}
+/deep/ .comTr {
+  .title1{
+    background-color: #fff !important
+  }
+
+}
+.no_info {
+  text-align: center;
+}
+#add th{
+  background: #f8f8f8
+}

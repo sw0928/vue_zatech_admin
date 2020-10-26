@@ -1,0 +1,112 @@
+.examine{
+	// position: fixed;
+ //    width: 100%;
+ //    height: 100%;
+ //    top: 59px;
+	// left: 0px;
+ //    background: rgba(0, 0, 0, 0.49);
+ //    z-index: 9999;
+	// display: none;
+	.w_300{
+		width: 33%;			   
+	}
+	.marL_200{
+		margin-left: 20%;
+	}
+	.marR_100{
+		margin-right: 10%;
+	}
+	.colorRed{
+		color:#f40000
+	}
+	.newMar{
+		margin-right:50%;
+	}
+	.content{
+		// width: 63%;
+		// height: 85%;
+		// background: #fff;
+		// position: relative;
+		// top: 30px;
+		// margin: auto;
+		h6{
+			color: rgba(16, 16, 16, 1);
+            font-size: 16px;
+			line-height: 60px;
+			border-bottom: 1px solid #bbbbbb;
+			padding-left: 10px;
+		}
+		.edit{
+			 border-bottom: 1px solid #bbbbbb;
+             padding: 10px 0 20px 0;
+			 margin-bottom: 10px;
+			span{
+				display: inline-block;
+				width: 49%;
+				text-align: center;
+				font-size: 16px;
+			}
+		}
+	}
+}
+.is_display{
+	display: block;
+}
+.ant-form-item{
+	margin-bottom: 10px;
+}
+.sw_date{
+	display: inline-block;
+}
+.imgSize img{
+	height: 70px;
+}
+.sw_img img{
+	height: 70px;
+}
+.imgSize p{
+	width: 300px;
+    text-align: center;
+    line-height: 32px;
+}
+.ant-form-item >>> .ant-form-item-control{
+	   		margin-left: 95px;
+			line-height: 30px;
+	   }
+	  .ant-form-item >>> .ant-form-item-label{
+		   line-height: 30px;
+		   }
+	   .ant-form-item >>> .calendar_box{
+	   		 cursor: not-allowed;
+	   }
+	   .rangeTime >>> .date_time{
+	   		width: 145px;
+	   }
+	   .ant-form-item >>> .leftSpan{
+	   		display: none;
+	   }
+	   .ant-form-item >>> .rangeTime{
+	   		height: 30px;
+			line-height: 30px;
+	   }
+	   .ant-form-item >>> .modelItem{
+	   		margin-bottom: 0px;
+			//padding-top: 5px;
+			box-sizing: border-box;
+	   }
+	.see_img{
+   	.content{
+   		img{
+   			width: 700px;
+   		}
+   		h6{
+   			color: #101010;
+			font-size: 16px;
+			line-height: 40px;		   
+			text-align: center;
+			background: #C2C7CC 100%;
+			margin-top: 10px;
+			border-radius: 20px;
+   		}
+   	}
+   }	

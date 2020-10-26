@@ -1,0 +1,31 @@
+/deep/ .thisTablle {
+  .title1{
+    background-color: #fff !important
+  }
+
+}
+#add th{
+  background: #f8f8f8
+}
+.redCOlr{
+  color: red
+}
+
+.oRed{
+  color: red;
+  padding-left: 137px;
+  position: relative;
+  top: -10px;
+}
+.Specail {
+  /deep/ .ant-table-body {
+    overflow-x:auto!important
+  }
+  
+}
+.record{
+	background: #fff;
+    padding: 18px;
+    /* font-size: 14px; */
+    line-height: 24px;
+}

@@ -1,0 +1,45 @@
+.tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .tab_left {
+        display: flex;
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+        .info_list {
+            padding: 0 10px;
+            margin-right: 5px;
+            background-color: #fff;
+            border: 1px solid #e1e1e1;
+            border-top-left-radius: 5px;
+        }
+        .modify_list {
+            padding: 0 10px;
+            border: 1px solid #e1e1e1;
+            background-color: #fff;
+            border-top-right-radius: 5px;
+        }
+    }
+    .tab_right {
+        .add_access {
+            cursor: pointer;
+            padding: 0 10px;
+            margin-right: 10px;
+            background-color: #fff;
+        	border: 1px solid currentColor;
+        	color: #D41B4D;
+            line-height: 35px;
+            border-radius: 5px;
+        }
+    }
+    .is_select {
+        background-color: #d81f49!important;
+        color: #fff;
+    }
+}
+
+.is_tui {
+    color: rgb(73, 169, 233);
+    cursor: pointer;
+}
